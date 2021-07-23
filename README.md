@@ -2,7 +2,9 @@
 
 This is a landing page for an amazon product using ReactJs.
 
-<img src="https://i.imgur.com/wZUDtfW.png" />
+<img src="https://i.imgur.com/wZUDtfW.png" width="50%" />
+
+<img src="https://i.imgur.com/3fbULN0.png" width="50%" />
 
 ## Usage
 
