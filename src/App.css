@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.nav {
+    width: 100%;
+    background-color: #232f3e;
+    padding: 24px 48px 12px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav img {
+    width: 100px;
+}
+
+.container {
+    width: 100%;
+    margin-top: 32px;
+    padding: 4% 12%;
+    display: flex;
+    align-items: center;
+}
+
+.productDisplay {
+    position: relative;
+}
+
+.productDisplay img {
+    width: 100%;
+}
+
+.featureDisplay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.heartBeat p {
+    margin-top: 16px;
+}
+
+.heartBeat i {
+    color: red;
+    animation: beat 1s infinite;
+}
+
+@keyframes beat {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.2, 1.2);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+.productDetails {
+    display: flex;
+    flex-direction: column;
+}
+
+.productDetails .title {
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.productDetails .description {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.productDetails .heading {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.productImg {
+    width: 100%;
+    max-width: 80px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.selectedProductImg {
+    border: 2px solid teal;
+}
+
+.featureBtn {
+    min-width: 80px;
+    background-color: gainsboro;
+    border-radius: 8px;
+    border: 0;
+    text-align: center;
+    margin-right: 12px;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-weight: 600;
+    box-sizing: content-box;
+}
+
+.selectedFeautureBtn {
+    color: white;
+    background-color: gray;
+}
+
+.primaryBtn {
+    color: white;
+    background-color: teal;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 0;
+    padding: 12px 24px;
+    margin-top: 36px;
+    cursor: pointer;
+}
+
+.col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
