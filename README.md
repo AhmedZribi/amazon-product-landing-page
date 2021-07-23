@@ -2,6 +2,8 @@
 
 This is a landing page for an amazon product using ReactJs.
 
+https://imgur.com/xSIK4M8.png
+
 ## Usage
 
 ```
